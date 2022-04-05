@@ -1,0 +1,51 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.main__page{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 13%;
+}
+
+.deposit, .withdraw, .balance{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.deposit__input, .withdraw__input{
+
+  width: 220px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid rgb(36, 47, 47);
+}
+
+.deposit__click, .withdraw__click, .balance_click{
+  width: 100px;
+  /* margin-left: 50px; */
+  height: 45px;
+  border-radius: 40px;
+  background-color: bisque;
+  border: 2px solid rgb(36, 47, 47);
+  box-shadow: 5px 2px 2px whitesmoke;
+}
